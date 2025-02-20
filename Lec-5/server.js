@@ -9,7 +9,6 @@ app.post("/adduser",(req,res)=>{
     console.log(name,email,password)
 })
 
-
 app.listen(5643,()=>{
     console.log("server started");
 })
